@@ -1,5 +1,5 @@
-.Cork {
-    background-image: url(./images/corkboard.webp);
+.tracker {
+    background-image: url(../images/ProgressTracker.png);
     height: 100vh;
     margin-top: -10px;
     margin-left: -8px;
