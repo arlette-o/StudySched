@@ -1,11 +1,13 @@
+import "./reminder.css";
 
 const Reminder = () => {
     return(
         <div>
-            <img  className="Reminder" src={require('../images/postit-blue.png')} alt="postit"/>
-            <img  className="Reminder" src={require('../images/postit-yellow.png')} alt="postit"/>
-            <img  className="Reminder" src={require('../images/postit-green.png')} alt="postit"/>
-            
+            <container classname="reminders--container">
+                <img  className="reminder--blue" src={require('../images/postit-blue.png')} alt="postit"/>
+                <img  className="reminder--yellow" src={require('../images/postit-yellow.png')} alt="postit"/>
+                <img  className="reminder--green" src={require('../images/postit-green.png')} alt="postit"/>
+            </container>
         </div>
     )
 }
